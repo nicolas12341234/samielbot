@@ -102,19 +102,6 @@ client.on('ready', () => {
 
 
 
-///////////////cosa/////////////
 
-const Monitor = require('ping-monitor')
-
-
-keepAlive();
-const monitor = new Monitor({
-    website: 'https://127.0.0.1:5500/',
-    title: 'Algo',
-    interval: 5
-    
-
-
-})
 
 client.login(config.TOKEN)
